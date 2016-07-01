@@ -182,12 +182,8 @@ a:hover {
 /* MASONRY
 /*******************************************/
 
-.grid, .bio {
-  margin: 2%;
-}
-.gutter-sizer {
-  width: .1%;
-}
+.grid, .bio {margin: 2%;}
+.gutter-sizer {width: .1%;}
 .grid-sizer,
 .grid-item { width: 33%; }
 .grid-item-width2 { width: 66%;}
@@ -290,8 +286,8 @@ a:hover {
   #what-we-do {display: none;}
   #bio {padding-right: 0;}
 }
-@media only screen and (max-width: 1490px){ /* MEDIA QUERY FOR Monitor  */
-  #bio {padding-right: 18%;}
+@media only screen and (max-width: 1490px){ /* MEDIA QUERY FOR macbook  */
+  #bio {padding-right: 0;}
 }
 
 @media only screen and (min-width: 1500px){ /* MEDIA QUERY FOR Monitor  */
