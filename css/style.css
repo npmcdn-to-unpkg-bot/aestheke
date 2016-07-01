@@ -120,9 +120,7 @@ nav ul li a:hover {
   color: black;
   display: inline-block;
   box-shadow: 0 10px 10px -10px rgba(252, 0, 0, 0.8);
-
 }
-
 nav ul li a:active {
   text-decoration-style: none!important;
   color: black;
@@ -234,12 +232,12 @@ a:hover {
   font-family: "future";
   font-size: 15px;
   text-align: center;
-  text-transform: capitalize!important;
 }
 #bio {
   display: block;
   text-align: center;
-  padding: 2%;
+  padding-top: 2%;
+  width: 100%;
 }
 .bio-content {
   margin: auto;
@@ -249,7 +247,6 @@ a:hover {
 }
 #profile {
   float: left;
-  display: inline-block;
   border-radius: 50%;
 }
 .bio-content p {
@@ -280,6 +277,7 @@ a:hover {
   .grid-item-height2 {height:auto;}
   .grid-item-height3 {height:auto;}
   .grid-item-width2 { width: 66%;}
+  #bio {padding-right: 0!important;}
 }
 @media only screen and (max-width: 600px){ /* MEDIA QUERY FOR Mobile  */
   /*.bio img, .bio h2, .bio p {float: none; display: block; margin: auto;}
@@ -290,6 +288,10 @@ a:hover {
   .grid-item-height3 {height:auto;}
   #readMore {margin: auto; display: block; text-align: center;}
   #what-we-do {display: none;}
+  #bio {padding-right: 0;}
+}
+@media only screen and (max-width: 1490px){ /* MEDIA QUERY FOR Monitor  */
+  #bio {padding-right: 18%;}
 }
 
 @media only screen and (min-width: 1500px){ /* MEDIA QUERY FOR Monitor  */
